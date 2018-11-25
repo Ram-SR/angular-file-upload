@@ -1,0 +1,7 @@
+<section class="app-root">
+  <app-upload-form (fileUpload)="submitFile($event)"></app-upload-form>
+  <app-line-chart
+    *ngIf="chartDataLoaded"
+    [chartData]="chartData"
+  ></app-line-chart>
+</section>

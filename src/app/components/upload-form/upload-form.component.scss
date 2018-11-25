@@ -1,0 +1,54 @@
+.file__upload__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+.form__input__hint {
+  font-size: 12px;
+}
+
+.form__input__error {
+  font-size: 12px;
+  color: #dc3545;
+}
+
+.form__input--file {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.form__input__custom {
+  display: flex;
+  justify-content: center;
+  min-width: 225px;
+  padding: 7px 30px;
+  background: #dc3545;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form__upload__icon {
+  height: 20px;
+  margin-right: 20px;
+}
+
+.button {
+  padding: 7px 25px;
+  background: transparent;
+  border: transparent;
+  border-radius: 999999px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button--primary {
+  background: #007bff;
+  color: #fff;
+}
